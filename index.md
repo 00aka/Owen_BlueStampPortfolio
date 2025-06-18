@@ -96,7 +96,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 <!--- To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 # Starter Project - Retro Arcade Console
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/CaCazFBhYKs]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/CaCazFBhYKs]" title="Owen Z. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
 My starter project was the Retro Arcade Console. The Retro Arcade Console has 5 games in retro style, however, tetris was the main game. It has 4 buttons on the front that control movement, and 2 buttons on the side to control rotation.
