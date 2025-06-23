@@ -104,7 +104,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources
+# Resources
 - https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
 - https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
 - https://www.instructables.com/How-to-Set-AT-Command-Mode-for-HC-05-Bluetooth-Mod/
