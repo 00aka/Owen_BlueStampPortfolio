@@ -45,15 +45,16 @@ For your second milestone, explain what you've worked on since your previous mil
 My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels, the motors, the Audino, etc. I was also able to test the ultrasonic sensors and the motors.
 
 ### Components Used
-- an ultrasonic sensor
-- two dc motors.
-- two treads
-- four wheels
-- an Arduino microcontroller
-- L298N Motor Driver
-- hc-05 bluetooth module
-- USB cable
-- 9V battery
+- 1 ultrasonic sensor
+- 2 DC motors.
+- 2 treads
+- 4 wheels
+- 1 Arduino microcontroller
+- 1 L298N Motor Driver
+- 1 hc-05 bluetooth module
+- 1 USB cable
+- 1 9V battery
+- 1 Half Breadboard
 
 ### Challenges Faced
 Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated. Another challenge was attatching all of the extra items, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of the stuff on, and found room to cram them onto the body, with some items even on the underside. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
