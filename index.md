@@ -39,6 +39,25 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone -->
 
 # First Milestone
+<!-- Video Here -->
+
+### Summary
+My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels, the motors, the Audino, etc. I was also able to test the ultrasonic sensors and the motors.
+
+### Components Used
+- an ultrasonic sensor
+- two dc motors.
+- two treads
+- four wheels
+- an Arduino microcontroller
+- L298N Motor Driver
+- hc-05 bluetooth module
+- USB cable
+- 9V battery
+
+### Challenges Faced
+Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated. Another challenge was attatching all of the extra items, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of the stuff on, and found room to cram them onto the body, with some items even on the underside. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
+
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
 
@@ -96,10 +115,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 <!--- To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 # Starter Project - Retro Arcade Console
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/F7M7imOVGug](https://www.youtube.com/watch?v=12F3Wk7Y_2A&list=PLe-u_DjFx7eui8dmPGji-0-slT8KydYv_&index=33)" title="Owen Z Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
-My starter project was the Retro Arcade Console. The Retro Arcade Console has 5 games in retro style, however, tetris was the main game. It has 4 buttons on the front that control movement, and 2 buttons on the side to control rotation.
-3
+My starter project was the Retro Arcade Console. The Retro Arcade Console has 5 games in retro style. It has 4 buttons on the front that control movement of the games, and with the two buttons on the side, the one on top controls which game you want to play and the settings, while the one on the bottom can pause/unpause the games. The red button is the on/off button.
+
 ### Challenges Faced
 Some challenges I faced were definitley soldering. I soldered the USB port upside down, and it was a struggle taking it off. In the end, we had to sort of wedge it off, rendering the USB port useless, however I was lucky that the USB port was not an important aspect of the Retro Arcade Console. Another challenge involving soldering is that sometimes, my soldering iron would not melt the solder, making soldering incredibily difficult.
