@@ -71,12 +71,12 @@ Some challenges I faced was probably getting started. The manual for making the 
 
 # Schematics
 
+![Screenshot 2025-06-23 113107](https://github.com/user-attachments/assets/7d10e141-302b-4912-abe5-a3fd512292ca)
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
 
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.
-
 
  c++
 void setup() {
@@ -103,7 +103,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources/Examples
+# Other Resources
+- https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
+- https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
+- https://www.instructables.com/How-to-Set-AT-Command-Mode-for-HC-05-Bluetooth-Mod/
 
 <!-- One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. --!>
 
