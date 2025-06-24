@@ -102,7 +102,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| hc-sr04 Ultrasonic sensor | Detect how far away items are | $11.00 | [<a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a>](https://www.radwell.com/Buy/SAINSMART/SAINSMART/HC-SR04?source=GoogleShopping&IgnoreRedirect=true&ItemSingleId=49511201&viewAll=true&adlclid=87f76da74f751e990a7c05fd858c4998&msclkid=87f76da74f751e990a7c05fd858c4998&utm_source=bing&utm_medium=cpc&utm_campaign=%5BLegacy%5D%20%5BPLA%5D%20SC%20Shopping%20-%20In%20Stock%20-%20Generic%20-%20Bing&utm_term=4580909046059686&utm_content=SC%20-%20In%20Stock%20-%20Generic) |
+| hc-sr04 Ultrasonic sensor | Detect how far away items are | $11.00 | <a href="https://www.radwell.com/Buy/SAINSMART/SAINSMART/HC-SR04?source=GoogleShopping&IgnoreRedirect=true&ItemSingleId=49511201&viewAll=true&adlclid=87f76da74f751e990a7c05fd858c4998&msclkid=87f76da74f751e990a7c05fd858c4998&utm_source=bing&utm_medium=cpc&utm_campaign=%5BLegacy%5D%20%5BPLA%5D%20SC%20Shopping%20-%20In%20Stock%20-%20Generic%20-%20Bing&utm_term=4580909046059686&utm_content=SC%20-%20In%20Stock%20-%20Generic/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
