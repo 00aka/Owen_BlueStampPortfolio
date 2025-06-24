@@ -73,8 +73,8 @@ Some challenges I faced was probably getting started. The manual for making the 
 - What your plan is to complete your project -->
 
 # Schematics
-
-![Screenshot 2025-06-23 113107](https://github.com/user-attachments/assets/7d10e141-302b-4912-abe5-a3fd512292ca)
+<img src="" width="600" height="400">
+- Via cirkitdesigner
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
