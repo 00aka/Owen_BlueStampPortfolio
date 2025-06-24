@@ -46,7 +46,7 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 
 ### Components Used
 - 1 ultrasonic sensor
-- 2 DC motors.
+- 2 DC motors
 - 2 treads
 - 4 wheels
 - 1 Arduino microcontroller
@@ -55,6 +55,8 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 - 1 USB cable
 - 1 9V battery
 - 1 Half Breadboard
+
+I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
 
 ### Challenges Faced
 Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated. Another challenge was attatching all of the extra items, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of the stuff on, and found room to cram them onto the body, with some items even on the underside. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
