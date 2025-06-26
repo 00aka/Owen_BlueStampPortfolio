@@ -27,12 +27,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 
-
 ### Summary
-My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. I think what suprised me the most was how simple it was to code this, as I finished this milestone pretty quickly.
+My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. The movement code is pretty self explanable, but the ultrasonic sensor is coded to tell how far away something is, and move away if needed. I had to code the movement first and then the ultrasonic sensor for obvious reasons. I think what suprised me the most was how simple it was to code this, as I finished this milestone pretty quickly.
 
 ### Challenges
-I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn.
+I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn. Another challenge was making sure the code worked, because everynow and then, the wires may shift around, causing the code to work but the Arduino to not function, usually making me very annoyed and confused.
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -86,6 +85,8 @@ Some challenges I faced was probably getting started. The manual for making the 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
+
+### Ultrasonic Sensors and Movement Code
 ```
 #include <SoftwareSerial.h>
 
