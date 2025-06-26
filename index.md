@@ -47,7 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-NY4l7gzPFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 ### Summary
-My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels, the motors, the Audino, etc. I was also able to test the ultrasonic sensors and the motors.
+My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels and the motors, as well as attatching many items, like the Arduino, the breadboard, and the motor driver. I was also able to test the ultrasonic sensors and the motors.
 
 ### Components Used
 - 1 ultrasonic sensor
@@ -64,7 +64,7 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
 
 ### Challenges Faced
-Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated, and the images were poorly taken. Another challenge was attatching all of the extra items, such as the Arduino and L298N DC Motor Driver, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of them onto the top of the body, while I zip tied the L298N Motor Driver to the underside of the body. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
+Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated, and the images were poorly taken. Another challenge was attatching all of the extra items, such as the Arduino and L298N DC Motor Driver, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of them onto the top of the body, while I zip tied the L298N Motor Driver to the underside of the body. Another challenge I faced was probably attatching the wires, however, it wasn't neccesarily hard, just tedious.
 
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
