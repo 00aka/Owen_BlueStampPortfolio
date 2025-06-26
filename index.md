@@ -14,7 +14,6 @@
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
@@ -27,10 +26,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
+
+
+### Summary
+My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. I think what suprised me the most was how simple it was to code this, as I finished this milestone pretty quickly.
+
+### Challenges
+I think some challenges for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn.
+
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -39,7 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone -->
 
 # First Milestone
-<!-- Video Here -->
+<iframe width="560" height="315" src="[https://www.youtube.com/watch?v=-NY4l7gzPFc&list=PLe-u_DjFx7eui8dmPGji-0-slT8KydYv_&index=29]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 ### Summary
 My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels, the motors, the Audino, etc. I was also able to test the ultrasonic sensors and the motors.
@@ -59,7 +65,7 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
 
 ### Challenges Faced
-Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated. Another challenge was attatching all of the extra items, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of the stuff on, and found room to cram them onto the body, with some items even on the underside. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
+Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated, and the images were poorly taken. Another challenge was attatching all of the extra items, such as the Arduino and L298N DC Motor Driver, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of them onto the top of the body, while I zip tied the L298N Motor Driver to the underside of the body. Another challenge I faced was probably attatching the wires. It wasn't neccesarily hard, just tedious.
 
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
@@ -73,6 +79,8 @@ Some challenges I faced was probably getting started. The manual for making the 
 - What your plan is to complete your project -->
 
 # Schematics
+
+### Main Robot Schematic
 <img src="Robot Schematics.png" width="600" height="600">
 - Via cirkitdesigner
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
