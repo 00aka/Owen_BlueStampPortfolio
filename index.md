@@ -86,22 +86,108 @@ Some challenges I faced was probably getting started. The manual for making the 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
+```
+#include <SoftwareSerial.h>
 
-<!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.
+int trigPin = 12;    // Trigger
+int echoPin = 13;    // Echo
+long duration, cm, inches;
 
- c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+// Motor A connections
+int in1 = 8;
+int in2 = 7;
+// Motor B connections
+int in3 = 5;
+int in4 = 4;
+
+void MoveForward() {
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, HIGH);
+	digitalWrite(in3, HIGH);
+	digitalWrite(in4, LOW);
 }
+ void MoveBackward() {
+	digitalWrite(in1, HIGH);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, HIGH);	
+ }
 
+ void TurnRight() {
+	digitalWrite(in1, HIGH);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, HIGH);
+	digitalWrite(in4, LOW);
+ }
+
+ void TurnLeft() {
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, HIGH);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, HIGH);
+ }
+
+ void Stop()	{
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, LOW);
+ }
+
+ void setup() {
+	Serial.begin (9600);
+
+  //Define inputs and outputs
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+
+ 	pinMode(in1, OUTPUT);
+ 	pinMode(in2, OUTPUT);
+ 	pinMode(in3, OUTPUT);
+ 	pinMode(in4, OUTPUT);
+	
+ 	// Turn off motors - Initial state
+ 	digitalWrite(in1, LOW);
+ 	digitalWrite(in2, LOW);
+ 	digitalWrite(in3, LOW);
+ 	digitalWrite(in4, LOW);
+ }
+int MeasureDistance() {
+  // The sensor is triggered by a HIGH pulse of 10 or more microseconds.
+  // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  // Read the signal from the sensor: a HIGH pulse whose
+  // duration is the time (in microseconds) from the sending
+  // of the ping to the reception of its echo off of an object.
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+ 
+  // Convert the time into a distance
+  cm = (duration/2) / 29.1;     // Divide by 29.1 or multiply by 0.0343
+  inches = (duration/2) / 74;   // Divide by 74 or multiply by 0.0135
+	return(inches);
+	
+ }
 void loop() {
-  // put your main code here, to run repeatedly:
-
-} -->
-
-
+ int Distance = MeasureDistance();
+	//Serial.println(Distance);
+	if(Distance <= 5) {
+	Stop();
+	delay(750);
+	TurnRight();
+	delay(610);
+	}
+	else {
+	MoveForward();
+	delay(1000);
+	}
+}
+```
 # Bill of Materials
 
 <!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
