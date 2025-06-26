@@ -32,7 +32,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. I think what suprised me the most was how simple it was to code this, as I finished this milestone pretty quickly.
 
 ### Challenges
-I think some challenges for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn.
+I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn.
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
