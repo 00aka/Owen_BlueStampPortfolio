@@ -129,6 +129,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 <!--- To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 # Starter Project - Retro Arcade Console
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMSt7f6rHI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
 My starter project was the Retro Arcade Console. The Retro Arcade Console has 5 games in retro style. It has 4 buttons on the front that control movement of the games, and with the two buttons on the side, the one on top controls which game you want to play and the settings, while the one on the bottom can pause/unpause the games. The red button is the on/off button.
