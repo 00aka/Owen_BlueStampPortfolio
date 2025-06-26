@@ -81,7 +81,9 @@ Some challenges I faced was probably getting started. The manual for making the 
 
 ### Main Robot Schematic
 <img src="Robot Schematics.png" width="600" height="600">
+- Using 10k resistors
 - Via cirkitdesigner
+
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
