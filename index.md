@@ -45,7 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone -->
 
 # First Milestone
-<iframe width="560" height="315" src="[https://www.youtube.com/watch?v=-NY4l7gzPFc&list=PLe-u_DjFx7eui8dmPGji-0-slT8KydYv_&index=29]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-NY4l7gzPFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 ### Summary
 My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels, the motors, the Audino, etc. I was also able to test the ultrasonic sensors and the motors.
