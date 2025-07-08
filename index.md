@@ -12,7 +12,15 @@
 
 # Final Milestone
 
-<!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+### Summary
+My final milestone for the Mini Tank Robot was coding for and building the remote controller, naming it Bob, and adding all of my modifications, like the '[add modification name]'. [ADD MORE STUFF]
+
+### Challenges
+Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I new how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries.
+
+<!-- replace the [box parenthesis] with text that actually fit in
+
+ **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -25,15 +33,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mvPApYLQZsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
-My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. The movement code is pretty self explanable, but the ultrasonic sensor is coded to tell how far away something is, and move away if needed. I had to code the movement first and then the ultrasonic sensor for obvious reasons. I think what suprised me the most was how simple it was to code this, as I finished this milestone pretty quickly.
+My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. The movement code is pretty self explanable, but the ultrasonic sensor is coded to tell how far away something is, and move away if needed. The movement code was coded first, and was pretty simple, as all I had to do was define the directions and just test which combinations of the motors on high and low worked for the specific direction the robot moved. The ultrasonic sensor code was a little more tricky, as I had to get it to sense distance and then code the movement to make needed adjustments, with more trial and error.
 
 ### Challenges
-I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Overall, coding is sort of tedious, because once you have the code but not the integer values, its all just trial and error, like coding how long it should turn to make a 90 degree turn. Another challenge was making sure the code worked, because everynow and then, the wires may shift around, causing the code to work but the Arduino to not function, usually making me very annoyed and confused.
+I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Another challenge was probably getting the code to work. It took a while for debugging, and then some more trial and error in getting the robot to turn a specific degree, as well as adding a stop function so the robot will stop for a bit, if an object is in the range where the robot will move around it.
 
-<!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -47,7 +56,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-NY4l7gzPFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 ### Summary
-My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels and the motors, as well as attatching many items, like the Arduino, the breadboard, and the motor driver. I was also able to test the ultrasonic sensors and the motors.
+My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels and the motors, as well as attatching many items, like the Arduino, the breadboard, and the motor driver. I was also able to test the ultrasonic sensors and the motors to see if they work.
 
 ### Components Used
 - 1 ultrasonic sensor
