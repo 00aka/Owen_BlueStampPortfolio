@@ -195,7 +195,7 @@ void loop() {
 	Stop();
 	delay(750);
 	TurnRight();
-	delay(610);
+	delay(610);	// Turns the robot approximately 90 degrees
 	}
 	else {
 	MoveForward();
