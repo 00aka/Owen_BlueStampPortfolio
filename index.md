@@ -13,10 +13,10 @@
 # Final Milestone
 
 ### Summary
-My final milestone for the Mini Tank Robot was coding for and building the remote controller, naming it Bob, and adding all of my modifications, like the '[add modification name]'. [ADD MORE STUFF]
+My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together, naming it Bobert, and adding all of my modifications, like the '[add modification name]'. [ADD MORE STUFF]
 
 ### Challenges
-Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I new how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries.
+Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I knew how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries. One more challenge was de-soldering, as I accidently put the resistors into the 5v instead of ground, and de-soldering took forever, but I eventually got the hang of it.
 
 <!-- replace the [box parenthesis] with text that actually fit in
 
