@@ -16,7 +16,7 @@
 My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together, naming it Bobert, and adding all of my modifications, like the '[add modification name]'. [ADD MORE STUFF]
 
 ### Challenges
-Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I knew how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries. One more challenge was de-soldering, as I accidently put the resistors into the 5v instead of ground, and de-soldering took forever, but I eventually got the hang of it.
+Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I knew how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries. One more challenge was de-soldering, as I accidently put the resistors into the 5v line instead of the ground line, and de-soldering took forever, but I eventually got the hang of it.
 
 <!-- replace the [box parenthesis] with text that actually fit in
 
@@ -64,11 +64,14 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 - 2 treads
 - 4 wheels
 - 1 Arduino microcontroller
+- 1 Arduino Nano microcontroller
 - 1 L298N Motor Driver
-- 1 hc-05 bluetooth module
+- 2 hc-05 bluetooth modules
 - 1 USB cable
 - 1 9V battery
 - 1 Half Breadboard
+- 2 (half?) perf boards
+- 4 Push Buttons
 
 I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
 
@@ -89,11 +92,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 # Schematics
 
 ### Main Robot Schematic
-<img src="Robot Schematics.png" width="600" height="600">
 
-- Resistors are 10k
-- Via CirkitDesigner
-- Redo schematic because of new changes to the breadboard
 
 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
