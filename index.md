@@ -116,6 +116,7 @@ int in2 = 7;
 int in3 = 5;
 int in4 = 4;
 
+// The next part Tells which motors to move for the specific direction of movement
 void MoveForward() {
 	digitalWrite(in1, LOW);
 	digitalWrite(in2, HIGH);
@@ -168,6 +169,8 @@ void MoveForward() {
  	digitalWrite(in3, LOW);
  	digitalWrite(in4, LOW);
  }
+
+// This is the Ultrasonic sensor code
 int MeasureDistance() {
   // The sensor is triggered by a HIGH pulse of 10 or more microseconds.
   // Give a short LOW pulse beforehand to ensure a clean HIGH pulse:
@@ -189,6 +192,7 @@ int MeasureDistance() {
 	return(inches);
 	
  }
+// Puts the movement and ultrasonic sensor codes together
 void loop() {
  int Distance = MeasureDistance();
 	//Serial.println(Distance);
@@ -217,17 +221,16 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Arduino Uno R3| Contains the code for movement | $27.99 | <a href="https://www.walmart.com/ip/Arduino-Uno-Rev-3-Uno-R3-A000066/182664904?intsrc=CATF_9768&clickid=TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&irgwc=1&sourceid=imp_TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&veh=aff&wmlspartner=imp_27795&affiliates_ad_id=612734&campaign_id=9383&sharedid=6080654/"> Link </a> |
 | Arduino Nano 3.0 | Contains the code for the remote | $24.75 | <a href="https://www.amazon.com/dp/B003YVL34O?&tag=usdeexplicits-20/"> Link </a> |
 | L298N Motor Driver | Controls the DC Motors | $8.99 | <a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6/ref=sr_1_56?crid=2PXGS09EQWDRY&dib=eyJ2IjoiMSJ9.qawDn99TGs75N0slRxye4NsZmm8TPWyznPap_7RkjFdmPwBiu8gx-3hRNvV-zfTWtBJBeSLVCwXihOIE04jygL7pBm-Ek0idYs1YsAlKCfo.iM7rFy3oaCdNFqcC58Z5uXyjvNFD_EGVyWP9b9ZLaFA&dib_tag=se&keywords=single+l298n+motor+driver&qid=1750957714&sprefix=singlel298n+motor+driver%2Caps%2C174&sr=8-56&xpid=kqIxH__xzJ50_/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| hc-05 Bluetooth Modules | Connects the robot with its controller | $3.99 | <a href="https://www.walmart.com/ip/HC-05-Wireless-Bluetooth-RF-Transceiver-Module-serial-RS232-TTL-For-New-L3W9/1488123570?clickid=TSnzBe1WKxycTBIzdBV78Wj9UksSFJTkQ2Dk1M0&irgwc=1&sourceid=imp_TSnzBe1WKxycTBIzdBV78Wj9UksSFJTkQ2Dk1M0&veh=aff&wmlspartner=imp_3682317&affiliates_ad_id=1285387&campaign_id=9383&sharedid=/"> Link </a> |
+<!--| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |-->
+
 
 
 # Resources
 - https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
 - https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
 - https://www.instructables.com/How-to-Set-AT-Command-Mode-for-HC-05-Bluetooth-Mod/
+- https://app.cirkitdesigner.com/
 
 <!-- One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. --!>
 
