@@ -208,6 +208,256 @@ void loop() {
 	}
 }
 ```
+
+### Remote Controller Code
+```
+#include <SoftwareSerial.h>
+// Make sure the TX and RX pins match
+SoftwareSerial BTSerial(10, 11);   // TX | RX
+bool FORWARD = false;
+bool BACKWARD = false;
+bool LEFT = false;
+bool RIGHT = false;
+
+int Command;
+
+int FORWARDPRESS = 1;
+int FORWARDRELEASE = 2;
+int BACKWARDPRESS = 3;
+int BACKWARDRELEASE = 4;
+int LEFTPRESS = 5;
+int LEFTRELEASE = 6;
+int RIGHTPRESS = 7;
+int RIGHTRELEASE = 8;
+
+const int buttonPin2 = 2; 
+const int buttonPin3 = 3; 
+const int buttonPin4 = 4; 
+const int buttonPin5 = 5; 
+
+void setup()  {
+  Serial.begin(9600);
+  // Serial.println("Enter AT commands:");
+  BTSerial.begin(38400);       // HC-05 default speed in AT command more
+
+  pinMode(buttonPin2, INPUT);
+  pinMode(buttonPin3, INPUT);
+  pinMode(buttonPin4, INPUT);
+  pinMode(buttonPin5, INPUT);
+}
+
+
+// variables will change:
+int buttonState = 0;  // variable for reading the pushbutton status
+
+	// Reads button state to determine if the button is pressed or not
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin2);
+  FORWARD = buttonState == HIGH;
+  // Serial.println(FORWARD);
+  buttonState = digitalRead(buttonPin3);
+  BACKWARD = buttonState == HIGH;
+  // Serial.println(BACKWARD);
+  buttonState = digitalRead(buttonPin4);
+  LEFT = buttonState == HIGH;
+  // Serial.println(RIGHT);
+  buttonState = digitalRead(buttonPin5);
+  RIGHT = buttonState == HIGH;
+  // Serial.println(LEFT);
+
+	// Sends the integer values to to the bluetooth device connected to the Robot's Arduino
+  if (LEFT) {
+    BTSerial.write(LEFTPRESS);
+  }
+  else  {
+    BTSerial.write(LEFTRELEASE);
+  }
+  if (RIGHT) {
+    BTSerial.write(RIGHTPRESS);
+  }
+  else  {
+    BTSerial.write(RIGHTRELEASE);
+  }
+
+  if (FORWARD) {
+    BTSerial.write(FORWARDPRESS);
+  }
+  else  {
+    BTSerial.write(FORWARDRELEASE);
+  }
+
+  if (BACKWARD) {
+    BTSerial.write(BACKWARDPRESS);
+  }
+  else  {
+    BTSerial.write(BACKWARDRELEASE);
+  }
+ BTSerial.flush();
+ delay(50);
+}
+```
+
+### Robot Controller Code
+```
+#include <SoftwareSerial.h>
+
+// Motor A connections
+int in1 = 8;
+int in2 = 7;
+// Motor B connections
+int in3 = 5;
+int in4 = 4;
+
+void MoveForward() {
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, HIGH);
+	digitalWrite(in3, HIGH);
+	digitalWrite(in4, LOW);
+}
+ void MoveBackward() {
+	digitalWrite(in1, HIGH);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, HIGH);	
+ }
+
+ void TurnRight() {
+	digitalWrite(in1, HIGH);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, HIGH);
+	digitalWrite(in4, LOW);
+ }
+
+ void TurnLeft() {
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, HIGH);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, HIGH);
+ }
+
+ void Stop()	{
+	digitalWrite(in1, LOW);
+	digitalWrite(in2, LOW);
+	digitalWrite(in3, LOW);
+	digitalWrite(in4, LOW);
+ }
+
+SoftwareSerial BTSerial(9, 11);   //RX | TX
+bool FORWARD = false;
+bool BACKWARD = false;
+bool LEFT = false;
+bool RIGHT = false;
+
+int Command;
+
+int FORWARDPRESS = 1;
+int FORWARDRELEASE = 2;
+int BACKWARDPRESS = 3;
+int BACKWARDRELEASE = 4;
+int LEFTPRESS = 5;
+int LEFTRELEASE = 6;
+int RIGHTPRESS = 7;
+int RIGHTRELEASE = 8;
+
+const int buttonPin2 = 2; 
+const int buttonPin3 = 3; 
+const int buttonPin4 = 4; 
+const int buttonPin5 = 5; 
+
+
+void setup()  {
+  Serial.begin(9600);
+  // Serial.println("Enter AT commands:");
+  BTSerial.begin(38400);       // HC-05 default speed in AT command more
+  BTSerial.listen();
+}
+
+	// Determines which buttons are true to determine which direction the robot moves
+void loop() {
+  if (FORWARD && !BACKWARD && !RIGHT && !LEFT)  {
+   MoveForward();
+ }
+   else if (!FORWARD && BACKWARD && !RIGHT && !LEFT) {
+  //  Serial.println("Moving Backward");
+   MoveBackward();
+   }
+   else if (!FORWARD && !BACKWARD && RIGHT && !LEFT) {
+    //  Serial.println("Turning Right");
+     TurnRight();
+   }
+   else if (!FORWARD && !BACKWARD && !RIGHT && LEFT)  {
+    //  Serial.println("Turning Left");
+     TurnLeft();
+   }
+   else {
+     Stop();
+   }
+
+  if (BTSerial.available() == 0)  {
+   return;
+  }
+	// Reads what integer value is being sent from the Remote Controller bluetooth device
+int command = BTSerial.read();
+  if (command == 1) {
+		FORWARD = true;
+		}
+    else if (command == 2) {
+      FORWARD = false;
+    }
+  if (command == 3) {
+      BACKWARD = true;
+    }
+    else if (command == 4) {
+      BACKWARD = false;
+    }
+  if (command == 7) {
+      RIGHT = true;
+    }
+    else if (command == 8) {
+      RIGHT = false;
+    }
+  if (command == 5) {
+      LEFT = true;
+    }
+    else if (command == 6) {
+      LEFT = false;
+    }
+}
+```
+
+### Button Code
+```
+const int buttonPin2 = 2; 
+const int buttonPin3 = 3; 
+const int buttonPin4 = 4; 
+const int buttonPin5 = 5; 
+
+int buttonState = 0;  // variable for reading the pushbutton status
+
+void setup() {
+  	// initialize the pushbutton pin as an input:
+  pinMode(buttonPin2, INPUT);
+  pinMode(buttonPin3, INPUT);
+  pinMode(buttonPin4, INPUT);
+  pinMode(buttonPin5, INPUT);
+}
+
+void loop() {
+  	// Read the state of the pushbutton
+	// If the pushbutton is HIGH, sets the direction corresponding to the button to true
+  buttonState = digitalRead(buttonPin2);
+  LEFT = buttonState == HIGH;
+  buttonState = digitalRead(buttonPin3);
+  FORWARD = buttonState == HIGH;
+  buttonState = digitalRead(buttonPin4);
+  BACKWARD = buttonState == HIGH;
+  buttonState = digitalRead(buttonPin5);
+  RIGHT = buttonState == HIGH;
+
+}
+```
+
 # Bill of Materials
 
 <!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
