@@ -13,10 +13,10 @@
 # Final Milestone
 
 ### Summary
-My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together, naming it Bobert, and adding all of my modifications, like the '[add modification name]'. [ADD MORE STUFF]
+My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together and naming it "Bobert". The buttons all correspond to the different movements, so forward, backward, left, and right respectively. The button board(the one with the buttons) and the bluetooth/arduino board were glued together to make it more hand held, and make it smaller and more like a controller. The forward button was melted a little, but it still works. Some topics I have learned while on this journey, is coding in c++, soldering, using Arduinos and Ultrasonic sensors, how breadboards/perf boards work, and how jumpers work. 
 
 ### Challenges
-Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. Overall, the coding was not entirely enjoyable, as the one main problem for the button pressing error was because of a print line. Another challenge was soldering, as I couldn't really figure out how to start, and I kind of melted my thumb which hindered my progress a little bit. However, once I knew how to start, the process kind of just progressed more smoothly without [hopefully] any more injuries. One more challenge was de-soldering, as I accidently put the resistors into the 5v line instead of the ground line, and de-soldering took forever, but I eventually got the hang of it.
+Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. One of the main problem for the button pressing error was because of a print line that was not supposed to be there. Another challenge was soldering, as I kind of melted my thumb which hindered my progress a little bit. However, it didn't set me back by much, and I was able to finish it somewhat quickly. One more challenge was de-soldering, as I accidently put the resistors into the 5v line instead of the ground line, and de-soldering took forever, but I eventually got the hang of it. One final challenge I had was that sometimes the copper would rip off and I would have to solder the wires together or add more solder to replace the copper, which was difficult, as the solder wouldn't snap on to the place where the copper was.
 
 <!-- replace the [box parenthesis] with text that actually fit in
 
@@ -36,10 +36,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mvPApYLQZsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
-My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. The movement code is pretty self explanable, but the ultrasonic sensor is coded to tell how far away something is, and move away if needed. The movement code was coded first, and was pretty simple, as all I had to do was define the directions and just test which combinations of the motors on high and low worked for the specific direction the robot moved. The ultrasonic sensor code was a little more tricky, as I had to get it to sense distance and then code the movement to make needed adjustments, with more trial and error.
+My second milestone for the Mini Tank Robot was to code movement into the robot, as well as coding the ultrasonic sensors to work. The movement code is pretty easy, as all that was used was defining the functions such as "MoveForward" and "MoveBackward", and the way the functions are defined are setting the motor connections to either high or low. The ultrasonic sensor is coded to tell how far away something is, and move away if an obstacle is within the move away range. The movement was coded first, and then the ultrasonic sensor. Finally, I had to put the two codes together, by sensing the distance and then adding code from the movement to move away, such as stopping when the object is within the move away range, and turning to find another path.
 
 ### Challenges
-I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Another challenge was probably getting the code to work. It took a while for debugging, and then some more trial and error in getting the robot to turn a specific degree, as well as adding a stop function so the robot will stop for a bit, if an object is in the range where the robot will move around it.
+I think one major challenge for me was getting started, as the codes on the internet didn't work with my robot, as most of the codes were for robots with 4 wheels and 4 motors, and not treads with 2 motors. The added difficulty was also probably due to the fact I haven't used C++ before in coding. Another challenge was probably putting the two codes together. It was a little tricky as I had to implement the movement code into the ultrasonic sensor so it can move away if needed. It also took a while for debugging, and then some more trial and error in getting the robot to turn a specific degree, as well as adding a stop function so the robot will stop for a bit, if an object is in the range where the robot will move around it.
 
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
@@ -63,15 +63,15 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 - 2 DC motors
 - 2 treads
 - 4 wheels
-- 1 Arduino microcontroller
+- 1 Arduino UNO microcontroller
 - 1 Arduino Nano microcontroller
 - 1 L298N Motor Driver
 - 2 hc-05 bluetooth modules
-- 1 USB cable
 - 1 9V battery
 - 1 Half Breadboard
 - 2 (half?) perf boards
 - 4 Push Buttons
+- Lots of jumper wires
 
 I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
 
@@ -95,7 +95,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 <img src="Robot Schematics.png" width="600" height="800">
 
 ## Robot Controller Schematic
-<img src="Remote Control Schematics.png" width="600" height="800">
+<img src="Remote Control Schematics.png" width="600" height="400">
 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
@@ -214,9 +214,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | hc-sr04 Ultrasonic sensor | Detect how far away items are | $11.00 | <a href="https://www.radwell.com/Buy/SAINSMART/SAINSMART/HC-SR04?source=GoogleShopping&IgnoreRedirect=true&ItemSingleId=49511201&viewAll=true&adlclid=87f76da74f751e990a7c05fd858c4998&msclkid=87f76da74f751e990a7c05fd858c4998&utm_source=bing&utm_medium=cpc&utm_campaign=%5BLegacy%5D%20%5BPLA%5D%20SC%20Shopping%20-%20In%20Stock%20-%20Generic%20-%20Bing&utm_term=4580909046059686&utm_content=SC%20-%20In%20Stock%20-%20Generic/"> Link </a> |
 | 2WD Tank Robot Chassis Platform | Main body of robot | $20.99 | <a href="https://www.amazon.com/Intelligent-Compatible-Bluetooth-Scientific-Competition/dp/B09VZVFL9D/ref=sr_1_4_sspa?crid=2NOX1B9B43L9G&dib=eyJ2IjoiMSJ9.5Xkf7i82-ZX_TZVpc-T3hgmVSTjtvvPnonn3ELuJ2_5IXtit_ijHc6-whElHUJ1nHYRUJ3NyMjlbjHoATZEdT3LodlRtztMcDrw6A1OF0czFP_aG8kW85m2rwD4hiz_iZsWn7hdChdSlNaN1QJTww4GIkn9M8-ZVYps6OOQ3zqwjJVvrwJva_0xYzq9APIcJQL12EiviRQTcr5kk9kp5qeTMPyJVdHqV-2rl70GGGawFUHxinyG_542Zy0BwYOIVmT-lVy26Vcg3-mQWpygCcAToXzrlA1nJFwZRviSgHAA.EegzuEWuR8ryWxOzRaqQzta-bthNVX_mLG0vaO6uvAQ&dib_tag=se&keywords=tank+robot+chassis&qid=1750957125&sprefix=tank+robot+chassis%2Caps%2C165&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1/"> Link </a> |
-| Arduino Uno R3| Arduino | $27.99 | <a href="https://www.walmart.com/ip/Arduino-Uno-Rev-3-Uno-R3-A000066/182664904?intsrc=CATF_9768&clickid=TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&irgwc=1&sourceid=imp_TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&veh=aff&wmlspartner=imp_27795&affiliates_ad_id=612734&campaign_id=9383&sharedid=6080654/"> Link </a> |
+| Arduino Uno R3| Contains the code for movement | $27.99 | <a href="https://www.walmart.com/ip/Arduino-Uno-Rev-3-Uno-R3-A000066/182664904?intsrc=CATF_9768&clickid=TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&irgwc=1&sourceid=imp_TSnzBe1WKxycTBIzdBV78Wj9UksXXWT4Q2Dk1M0&veh=aff&wmlspartner=imp_27795&affiliates_ad_id=612734&campaign_id=9383&sharedid=6080654/"> Link </a> |
+| Arduino Nano 3.0 | Contains the code for the remote | $24.75 | <a href="https://www.amazon.com/dp/B003YVL34O?&tag=usdeexplicits-20/"> Link </a> |
 | L298N Motor Driver | Controls the DC Motors | $8.99 | <a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6/ref=sr_1_56?crid=2PXGS09EQWDRY&dib=eyJ2IjoiMSJ9.qawDn99TGs75N0slRxye4NsZmm8TPWyznPap_7RkjFdmPwBiu8gx-3hRNvV-zfTWtBJBeSLVCwXihOIE04jygL7pBm-Ek0idYs1YsAlKCfo.iM7rFy3oaCdNFqcC58Z5uXyjvNFD_EGVyWP9b9ZLaFA&dib_tag=se&keywords=single+l298n+motor+driver&qid=1750957714&sprefix=singlel298n+motor+driver%2Caps%2C174&sr=8-56&xpid=kqIxH__xzJ50_/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
 # Resources
 - https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
