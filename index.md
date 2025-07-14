@@ -14,10 +14,13 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary
-My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together and naming it "Bobert". The buttons all correspond to the different movements, so forward, backward, left, and right respectively. The button board (the one with the buttons) and the bluetooth/arduino board were glued together to make it more hand held, and make it smaller and more like a controller. The forward button was melted a little, but it still works. Some topics I have learned while on this journey, is coding in c++, soldering, using Arduinos and Ultrasonic sensors, how breadboards/perf boards work, and how jumpers work. 
+My final milestone for the Mini Tank Robot was coding for and building the remote controller by soldering all of the parts together and naming it "Bobert". The buttons all correspond to the different movements, so forward, backward, left, and right respectively. The button board (the one with the buttons) and the bluetooth/arduino board were glued together to make it more hand held, and make it smaller and more like a controller. The forward button was melted a little, but it still works. 
 
 ### Challenges
 Some challenges I had were coding the remote, as there were lots of errors and debugging to do, like getting the bluetooth modules to connect with eachother, and why the robot was randomly moving, and why buttons were randomly held down for extended periods of time. One of the main problem for the button pressing error was because of a print line that was not supposed to be there. Another challenge was soldering, as I kind of melted my thumb which hindered my progress a little bit. However, it didn't set me back by much, and I was able to finish it somewhat quickly. One more challenge was de-soldering, as I accidently put the resistors into the 5v line instead of the ground line, and de-soldering took forever, but I eventually got the hang of it. One final challenge I had was that sometimes the copper would rip off and I would have to solder the wires together or add more solder to replace the copper, which was difficult, as the solder wouldn't snap on to the place where the copper was.
+
+### What I learned
+At Bluestamp Engineering, I have learned how to make a circuit using breadboards, and how to solder materials like jumper wires and Arduinos onto perf boards. I also learned how ultrasonic sensors worked, and how all of the controller materials worked, like the Arduino, the L298N DC Motor Driver, and the hc-05 bluetooth modules. Another thing I learned here at Bluestamp was coding in c++. In the future, I want to learn more about how useful CAD is, and better ways to use it.
 
 <!-- replace the [box parenthesis] with text that actually fit in
 
@@ -457,6 +460,27 @@ void loop() {
   RIGHT = buttonState == HIGH;
 
 }
+```
+
+### AT Mode Code(Connecting two bluetooth modules together)
+```
+#include <SoftwareSerial.h>
+//SoftwareSerial BTSerial(5, 6); // RX | TX	What pins the RX and TX pins on the bluetooth module are connected to on the Arduino
+SoftwareSerial BTSerial(10, 11);   // RX | TX
+void setup()
+{
+  Serial.begin(9600);
+  Serial.println("Enter AT commands:");
+  BTSerial.begin(38400);       // HC-05 default speed in AT command more
+}
+void loop()
+{
+  if (BTSerial.available())    // read from HC-05 and send to Arduino Serial Monitor
+  Serial.write(BTSerial.read());
+  if (Serial.available())     // Keep reading from Arduino Serial Monitor and send to HC-05
+  BTSerial.write(Serial.read());
+}
+// To set them to be connected, enter AT+UART=1 on the "master" bluetooth module, and enter AT+UART=0 on the "slave" bluetooth module
 ```
 
 # Bill of Materials
