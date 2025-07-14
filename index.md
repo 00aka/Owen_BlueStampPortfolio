@@ -15,8 +15,10 @@
 ### Summary
 For my modifications, I added boxes around the wiring of my robot and the controller, to make it more clean and not have wires sprouting all over the place. For the robot, it is a big box around the wiring, with holes for the batteries to connect to the Arduino, as well as the USB hole in case new code is added or a USB cable is needed in any way. For the remote control, the modification is pretty similar. It is also a box around the wiring to make it cleaner. 
 
-# 3D Printed Items
+### Challenges
+Some challenges I had were probably navigating the app, as it was sort of confusing on how to move things around and how to get them to be the right sizes. Another challenge was measuring the distance of objects, as it was pretty difficult to get precise mesurements and put them into the app, but in the end, I just made the sizes slightly bigger just in case.
 
+# 3D Printed Items
 ### Box For Robot Wiring
 <img src="Robot Wire Box.png" width="400" height="600">
 
