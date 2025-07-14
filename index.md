@@ -18,7 +18,7 @@ For my modifications, I added boxes around the wiring of my robot and the contro
 # 3D Printed Items
 
 ### Box For Robot Wiring
-<img src="" width="600" height="800">
+<img src="Robot Wire Box.png" width="400" height="600">
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
