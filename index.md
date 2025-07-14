@@ -1,6 +1,5 @@
 # Mini Tank Robot
-<!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
-
+The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was burning my thumb with the Soldering pen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
