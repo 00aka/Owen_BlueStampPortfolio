@@ -10,6 +10,16 @@
 
 ![Headstone Image](logo.svg) -->
 
+# Modification Milestone
+
+### Summary
+For my modifications, I added boxes around the wiring of my robot and the controller, to make it more clean and not have wires sprouting all over the place. For the robot, it is a big box around the wiring, with holes for the batteries to connect to the Arduino, as well as the USB hole in case new code is added or a USB cable is needed in any way. For the remote control, the modification is pretty similar. It is also a box around the wiring to make it cleaner. 
+
+# 3D Printed Items
+
+### Box For Robot Wiring
+<img src="" width="600" height="800">
+
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
