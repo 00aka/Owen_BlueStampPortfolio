@@ -1,5 +1,5 @@
 # Mini Tank Robot
-The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was burning my thumb with the Soldering pen.
+The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was burning my thumb with the soldering pen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
