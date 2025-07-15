@@ -91,7 +91,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-NY4l7gzPFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 ### Summary
-My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels and the motors, as well as attatching many items, like the Arduino, the breadboard, and the motor driver. I was also able to test the ultrasonic sensors and the motors to see if they work.
+My first milestone for the Mini Tank Robot was to build the body of the robot, so the wheels and the motors, as well as attatching many items to the robot, like the Arduino, the breadboard, and the motor driver. I also was able to have a temprary home for all of the wires and bluetooth devices on the bread board, as they will probably be finalized later. I was able to test the ultrasonic sensors to sense distance and the motors to see if they worked.
 
 ### Components Used
 - 1 ultrasonic sensor
