@@ -35,6 +35,20 @@ Some challenges I had were coding the remote, as there were lots of errors and d
 ### What I learned
 At Bluestamp Engineering, I have learned how to make a circuit using breadboards, and how to solder materials like jumper wires and Arduinos onto perf boards. I also learned how ultrasonic sensors worked, and how all of the controller materials worked, like the Arduino, the L298N DC Motor Driver, and the hc-05 bluetooth modules. Another thing I learned here at Bluestamp was coding in c++. In the future, I want to learn more about how useful CAD is, and better ways to use it.
 
+## Materials and Usage
+
+### hc-05 Bluetooth Modules
+The bluetooth modules can be paired up together by going through AT mode and connecting them(Refrence AT mode code down below to connect them). The bluetooth modules are connected to seperate Arduinos, and these bluetooth modules are able to communicate with each other; by sending data through one Arduino to the other one. One bluetooth module, can also be called the "master", will usually be the one sending commands and data to the other bluetooth module, the "slave".
+
+### Ultrasonic Sensor
+The ultrasonic sensor can sense how far something is, by using something similar to echo location. The sensor shoots out sound waves from the "eye" on the left, or the circular device connected to the trig pin, and recieves the data back in the echo pin, or the pin connected to the circular device on the right side. The distance is then calculated from the time it sends out the sound and recieves it back.
+
+### Push buttons
+The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed.
+
+### Arduino
+The Arduinos have a USB port on them, and when connected to a device, can have code uploaded into the Arduino. The Arduino is the main component of the robot, and all of the materials go in part with the Arduino. The bluetooth modules need to be connected to the Arduino and then have specific code uploaded to get them connected. The buttons are connected into the Arduino to tell the Arduino if a button is pressed or not pressed. The ultrasonic sensor also requires code that is run from the Arduino to the sensor.
+
 <!-- replace the [box parenthesis] with text that actually fit in
 
  **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -90,7 +104,7 @@ My first milestone for the Mini Tank Robot was to build the body of the robot, s
 - 4 Push Buttons
 - Lots of jumper wires
 
-I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the 9V battery is placed next to the audino. A half breadboard is used for the bluetooth module and the ultrasonic sensor. The ultrasonic sensor is placed on top of the battery, but taped on for an easy change of battery if needed. The USB cable is only needed to upload code from the computer to the Arduino.
+I had to assemble the treads and wheels and the body together with a scrappy manual, but I got it done. The 2 DC motors are attatched to the wheels under the body, and same with the L298N Motor Driver, ziptied underneath the body. The Arduino microcontroller is placed on the middle of the body, and the half breadboard is on top of the motors on the upperside of the body. The 9v battery is placed on a cleared spot on top of the breadboard, and the ultrasonic sensor is hot glued onto the front of the robot (Above the L298N).
 
 ### Challenges Faced
 Some challenges I faced was probably getting started. The manual for making the main body of the tank was pretty vauge and badly translated, and the images were poorly taken. Another challenge was attatching all of the extra items, such as the Arduino and L298N DC Motor Driver, as there was no guide, and the body of the tank was pretty small. In the end, I just taped most of them onto the top of the body, while I zip tied the L298N Motor Driver to the underside of the body. Another challenge I faced was probably attatching the wires, however, it wasn't neccesarily hard, just tedious.
