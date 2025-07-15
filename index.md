@@ -38,7 +38,8 @@ At Bluestamp Engineering, I have learned how to make a circuit using breadboards
 ## Materials and Usage
 
 ### hc-05 Bluetooth Modules
-The bluetooth modules can be paired up together by going through AT mode and connecting them(Refrence AT mode code down below to connect them). The bluetooth modules are connected to seperate Arduinos, and these bluetooth modules are able to communicate with each other; by sending data through one Arduino to the other one. One bluetooth module, can also be called the "master", will usually be the one sending commands and data to the other bluetooth module, the "slave".
+<img src="Bluetooth Pic.png" width="300" height="400">
+The bluetooth modules can be paired up together by going through AT mode and connecting them(Refrence AT mode code down below to connect them). Once connected, the bluetooth modules will blink rapidly twice. The bluetooth modules are also connected to seperate Arduinos, and these bluetooth modules are able to communicate with each other; by sending data through one Arduino to the other one. One bluetooth module, can also be called the "master", will usually be the one sending commands and data to the other bluetooth module, the "slave". To turn off AT Mode, disconnect the EN pin, and reset the USB cable.
 
 ### Ultrasonic Sensor
 The ultrasonic sensor can sense how far something is, by using something similar to echo location. The sensor shoots out sound waves from the "eye" on the left, or the circular device connected to the trig pin, and recieves the data back in the echo pin, or the pin connected to the circular device on the right side. The distance is then calculated from the time it sends out the sound and recieves it back.
@@ -508,6 +509,7 @@ void loop()
   BTSerial.write(Serial.read());
 }
 // To set them to be connected, enter AT+UART=1 on the "master" bluetooth module, and enter AT+UART=0 on the "slave" bluetooth module
+// Remember to put the EN pin into the 3.3v, and it will be in AT mode if the led on the module is blinking slowly.
 ```
 
 # Bill of Materials
