@@ -22,6 +22,10 @@ Some challenges I had were probably navigating the app, as it was sort of confus
 ### Box For Robot Wiring
 <img src="Robot Wire Box.png" width="400" height="600">
 
+
+### Box For Remote Controller
+<img src = "Remote Controller Box.png" width="400" height="600">
+
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
