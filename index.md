@@ -4,10 +4,7 @@ The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic s
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman
-
-<!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg) -->
+<img src="Owen Headshot.png" width="400" height="500">
 
 # Modification Milestone
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
