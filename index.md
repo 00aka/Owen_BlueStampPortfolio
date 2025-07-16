@@ -3,7 +3,7 @@ The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic s
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman|
+| Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman
 <img src="Owen Headshot.png" width="400" height="500">
 
 # Modification Milestone
@@ -127,7 +127,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 # Schematics
 
 ### Main Robot Schematic
-<img src="Robot Schematics.png" width="600" height="800">
+<img src="Robot Schematics.png" width="500" height="600">
 
 ## Robot Controller Schematic
 <img src="Remote Control Schematics.png" width="600" height="400">
