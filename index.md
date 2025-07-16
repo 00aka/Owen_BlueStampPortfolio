@@ -46,7 +46,7 @@ The bluetooth modules can be paired up together by going through AT mode and con
 The ultrasonic sensor can sense how far something is, by using something similar to echo location. The sensor shoots out sound waves from the "eye" on the left, or the circular device connected to the trig pin, and recieves the data back in the echo pin, or the pin connected to the circular device on the right side. The distance is then calculated from the time it sends out the sound and recieves it back. The vcc pin is connected to power(5v), and the gnd pin is connected to Ground.
 
 ### Push buttons
-<img src="Buttons Pic.png" width="400" height="200">
+<img src="Buttons Pic.png" width="400" height="300">
 These buttons have 4 little legs on the underside, and are connected from one side to another, so opposite sides are connected, but once the button is pushed, all 4 legs are connected. The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed. 
 
 ### Arduino
