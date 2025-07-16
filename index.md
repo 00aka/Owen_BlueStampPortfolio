@@ -17,7 +17,7 @@ Some challenges I had were probably navigating the app, as it was sort of confus
 
 # 3D Printed Items
 ### Box For Robot Wiring
-<img src="Robot Wire Box.png" width="500" height="400">
+<img src="Robot Wire Box Drawing.png" width="500" height="400">
 
 
 ### Box For Remote Controller
