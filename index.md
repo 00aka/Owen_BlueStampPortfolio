@@ -21,7 +21,7 @@ Some challenges I had were probably navigating the app, as it was sort of confus
 
 
 ### Box For Remote Controller
-<img src = "Remote Controller Box.png" width="500" height="400">
+<img src = "Remote Controller Box Drawing.png" width="500" height="400"><img src = "Remote Controller Box.png" width="500" height="400">
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
