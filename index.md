@@ -5,7 +5,7 @@ The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic s
 |:--:|:--:|:--:|:--:|
 | Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman
 <!-- -->
-<img src="Owen Headshot.png" width="400" height="500"> <img src="Project Photo.png" width="400" height="500">
+<img src="Owen Headshot.png" width="400" height="500"> <img src="Project Photo.png" width="400" height="400">
 
 # Modification Milestone
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IZsvjLhnbuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
@@ -18,11 +18,11 @@ Some challenges I had were probably navigating the app, as it was sort of confus
 
 # 3D Printed Items
 ### Box For Robot Wiring
-<img src="Robot Wire Box Drawing.png" width="500" height="400"><img src="Robot Wire Box Pic.png" width="500" height="400">
+<img src="Robot Wire Box Drawing.png" width="450" height="400"><img src="Robot Wire Box Pic.png" width="450" height="400">
 
 
 ### Box For Remote Controller
-<img src = "Remote Controller Box Drawing.png" width="500" height="400"><img src = "Remote Controller Box.png" width="500" height="400">
+<img src = "Remote Controller Box Drawing.png" width="450" height="400"><img src = "Remote Controller Box.png" width="450" height="400">
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
