@@ -4,10 +4,11 @@ The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic s
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman
-<img src="Owen Headshot.png" width="400" height="500">
+<!-- -->
+<img src="Owen Headshot.png" width="400" height="500"> <img src="Project Photo.png" width="400" height="500">
 
 # Modification Milestone
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IZsvjLhnbuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 ### Summary
 For my modifications, I added boxes around the wiring of my robot and the controller, to make it more clean and not have wires sprouting all over the place. For the robot, it is a big box around the wiring, with holes for the batteries to connect to the Arduino, as well as the USB hole in case new code is added or a USB cable is needed in any way. For the remote control, the box is over the board that contains the Arduino and the bluetooth device, with a hole for the battery to connect to the Arduino to power the remote.
