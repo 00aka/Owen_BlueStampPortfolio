@@ -51,7 +51,7 @@ The ultrasonic sensor can sense how far something is, by using something similar
 ### Push buttons
 <img src="Buttons Pic.png" width="400" height="300">
 
-These buttons have 4 little legs on the underside, and are connected from one side to another, so opposite sides are connected, but once the button is pushed, all 4 legs are connected. The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed. 
+These buttons have 4 little legs on the underside, and are connected from one side to another, so opposite sides are connected, but once the button is pushed, the broken connecter in the diagram will snap in place, and all 4 legs will be connected. The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed. 
 
 ### Arduino
 <img src="Arduino uno Pic.png" width="400" height="200">
