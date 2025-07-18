@@ -1,5 +1,5 @@
 # Mini Tank Robot
-The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was burning my thumb with the soldering pen.
+The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was soldering, because after attaching the wires, some would fall off and I would have to resolder them, and I also burnt my thumb when I touched the soldering pen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -130,7 +130,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 <img src="Robot Schematics.png" width="500" height="600">
 
 ## Robot Controller Schematic
-<img src="Remote Control Schematics.png" width="600" height="400">
+<img src="Remote Control Schematics.png" width="600" height="300">
 
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
