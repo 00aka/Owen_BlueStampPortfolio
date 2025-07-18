@@ -128,7 +128,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 # Schematics
 
 ### Main Robot Schematic
-<img src="Robot Schematics.png" width="500" height="600">
+<img src="Robot Schematics.png" width="500" height="550">
 
 ## Robot Controller Schematic
 <img src="Remote Control Schematics.png" width="600" height="300">
