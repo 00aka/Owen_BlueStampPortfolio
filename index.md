@@ -40,12 +40,12 @@ At Bluestamp Engineering, I have learned how to make a circuit using breadboards
 - Refer to code at the bottom for each item
 
 ### hc-05 Bluetooth Modules
-<img src="Bluetooth Pic.png" width="400" height="200">
+<img src="Bluetooth Pic.png" width="400" height="300">
 
 The bluetooth modules can be paired up together by going through AT mode and connecting them(Refrence AT mode code down below to connect them). Once connected, the bluetooth modules will blink rapidly twice. The bluetooth modules are also connected to seperate Arduinos, and these bluetooth modules are able to communicate with each other; by sending data through one Arduino to the other one. One bluetooth module, can also be called the "master", will usually be the one sending commands and data to the other bluetooth module, the "slave". To turn off AT Mode, disconnect the EN pin, and reset the USB cable.
 
 ### Ultrasonic Sensor
-<img src="Ultrasonic Sensor Pic.png" width="400" height="200">
+<img src="Ultrasonic Sensor Pic.png" width="400" height="300">
 
 The ultrasonic sensor can sense how far something is, by using something similar to echo location. The sensor shoots out sound waves from the "eye" on the left, or the circular device connected to the trig pin, and recieves the data back in the echo pin, or the pin connected to the circular device on the right side. The distance is then calculated from the time it sends out the sound and recieves it back. The vcc pin is connected to power(5v), and the gnd pin is connected to Ground.
 
@@ -55,7 +55,7 @@ The ultrasonic sensor can sense how far something is, by using something similar
 These buttons have 4 little legs on the underside, and are connected from one side to another, so opposite sides are connected, but once the button is pushed, the broken connecter in the diagram will snap in place, and all 4 legs will be connected. The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed. 
 
 ### Arduino
-<img src="Arduino uno Pic.png" width="400" height="200">
+<img src="Arduino uno Pic.png" width="400" height="300">
 
 The Arduinos have a USB port on them, and when connected to a device, can have code uploaded into the Arduino. The Arduino is the main component of the robot, and all of the materials go in part with the Arduino. The bluetooth modules need to be connected to the Arduino and then have specific code uploaded to get them connected. The buttons are connected into the Arduino to tell the Arduino if a button is pressed or not pressed. The ultrasonic sensor also requires code that is run from the Arduino to the sensor.
 
