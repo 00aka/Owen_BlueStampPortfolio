@@ -37,6 +37,7 @@ Some challenges I had were coding the remote, as there were lots of errors and d
 At Bluestamp Engineering, I have learned how to make a circuit using breadboards, and how to solder materials like jumper wires and Arduinos onto perf boards. I also learned how ultrasonic sensors worked, and how all of the controller materials worked, like the Arduino, the L298N DC Motor Driver, and the hc-05 bluetooth modules. Another thing I learned here at Bluestamp was coding in c++. In the future, I want to learn more about how useful CAD is, and better ways to use it.
 
 ## Materials and Usage
+- Refer to code at the bottom for each item
 
 ### hc-05 Bluetooth Modules
 <img src="Bluetooth Pic.png" width="400" height="200">
