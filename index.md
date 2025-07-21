@@ -54,6 +54,11 @@ The ultrasonic sensor can sense how far something is, by using something similar
 
 These buttons have 4 little legs on the underside, and are connected from one side to another, so opposite sides are connected, but once the button is pushed, the broken connecter in the diagram will snap in place, and all 4 legs will be connected. The push buttons are connected to pins on the Arduino, and if you look at the code below, will learn how the Arduino knows if a button is clicked, but in simple terms, when the button is pushed, the Arduino gets a High signal, as it is normally Low, meaning the button was pushed, and runs the command the button is supposed to do when pushed. 
 
+### L298N Motor Driver
+<img src="L298N Motor Driver.png" width="400" height="400">
+
+The L298N Motor Driver, as the name suggests, is what controls and drives the motors of the robot. Shown in the image above, Output A and Output B are connected to different motors, in our case, DC Motors. Wires are connected from the 2 Outputs to a small copper film on the sides of the different motors. Make sure Output A corresponds to one motor, and Output B corresponds to a different motor. The 12v pin is connected to the 5v pin on the Arduino, and the ground pin is connected to ground on the Arduino. The A Enable and B Enable control the speed, but are not used for this project, so the robot runs at default max speed, but you can incorporate it into your own project. The logic inputs are connected to the number side of the Arduino, and correspond to one copper film on the motors. These are used so the Arduino can tell which motor to run, and which direction it is to run.
+
 ### Arduino
 <img src="Arduino Uno Pic.png" width="400" height="300">
 
