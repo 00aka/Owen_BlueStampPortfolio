@@ -62,11 +62,10 @@ The L298N Motor Driver, as the name suggests, is what controls and drives the mo
 ### Arduino
 <img src="Arduino Uno Pic.png" width="400" height="300">
 
-The Arduinos have a USB port on them, and when connected to a device, can have code uploaded into the Arduino. The Arduino is the main component of the robot, and all of the materials go in part with the Arduino. The bluetooth modules need to be connected to the Arduino and then have specific code uploaded to get them connected. The buttons are connected into the Arduino to tell the Arduino if a button is pressed or not pressed. The ultrasonic sensor also requires code that is run from the Arduino to the sensor.
+The Arduinos have a USB port on them, and when connected to a device, can have code uploaded into the Arduino. The Arduino is the main component of the robot, and all of the materials go in part with the Arduino. The bluetooth modules need to be connected to the Arduino and then have specific code uploaded to get them connected. The buttons are connected into the Arduino to tell the Arduino if a button is pressed or not pressed. The ultrasonic sensor also requires code that is run from the Arduino to the sensor. The L298N Motor Driver also needs the Arduino to move and control the motors through code. Basically, the Arduino stores the code and all of the components are connected to the Arduino, so that the code can go to where it needs to go.
 
-<!-- replace the [box parenthesis] with text that actually fit in
 
- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
