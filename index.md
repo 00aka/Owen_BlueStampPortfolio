@@ -1,4 +1,4 @@
-# Mini Tank Robot(Bobert)
+# Mini Tank Robot: Bobert
 The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic sensor to detect distance. It is built with a controller to move the robot around. The biggest challenge I faced was soldering, because after attaching the wires, some would fall off and I would have to resolder them, and I also burnt my thumb when I touched the soldering pen.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
