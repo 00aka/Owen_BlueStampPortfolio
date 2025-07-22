@@ -17,13 +17,11 @@ For my modifications, I added boxes around the wiring of my robot and the contro
 Some challenges I had were probably navigating the app, as it was sort of confusing on how to move things around and how to get them to be the right sizes. Another challenge was measuring the distance of objects, as it was pretty difficult to get precise mesurements and put them into the app, but in the end, I just made the sizes slightly bigger just in case.
 
 # 3D Printed Items
-### Box For Robot Wiring
 <img src="Robot Wire Box Drawing.png" width="400" height="400"><img src="Robot Wire Box Pic.png" width="400" height="400">
-###### Figure 1
+###### Figure 1: CAD drawing of the Box for Robot Wiring
 
-### Box For Remote Controller
 <img src = "Remote Controller Box Drawing.png" width="400" height="400"><img src = "Remote Controller Box.png" width="400" height="400">
-###### Figure 2
+###### Figure 2: CAD drawing of the Box for Remote Controller
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zLDerVmH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
