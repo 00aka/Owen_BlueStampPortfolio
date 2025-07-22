@@ -45,7 +45,7 @@ At Bluestamp Engineering, I have learned how to make a circuit using breadboards
 The bluetooth modules can be paired up together by going through AT mode and connecting them(Refrence AT mode code down below to connect them). Once connected, the bluetooth modules will blink rapidly twice. The bluetooth modules are also connected to seperate Arduinos, and these bluetooth modules are able to communicate with each other; by sending data through one Arduino to the other one. One bluetooth module, can also be called the "master", will usually be the one sending commands and data to the other bluetooth module, the "slave". To turn off AT Mode, disconnect the EN pin, and reset the USB cable.
 
 ### Ultrasonic Sensor
-<img src="Ultrasonic Sensor Pic.png" width="400" height="300">
+<img src="Ultrasonic Sensor Pic.png" width="400" height="250">
 
 The ultrasonic sensor can sense how far something is, by using something similar to echo location. The sensor shoots out sound waves from the "eye" on the left, or the circular device connected to the trig pin, and recieves the data back in the echo pin, or the pin connected to the circular device on the right side. The distance is then calculated from the time it sends out the sound and recieves it back. The vcc pin is connected to power(5v), and the gnd pin is connected to Ground.
 
