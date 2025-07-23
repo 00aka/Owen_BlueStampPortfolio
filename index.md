@@ -5,7 +5,7 @@ The Mini Tank Robot is a controllable Robot Tank with treads and an ultrasonic s
 |:--:|:--:|:--:|:--:|
 | Owen Z | Crystal Springs Uplands School | Civil/Mechanical Engineering | Incoming Freshman
 
-<img src="Owen Headshot.png" width="400" height="500"> <img src=".png" width="400" height="400">
+<img src="Owen Headshot.png" width="400" height="500"> <img src="Project Photo.png" width="450" height="330">
 
 # Modification Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IZsvjLhnbuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
