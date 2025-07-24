@@ -141,7 +141,7 @@ Some challenges I faced was probably getting started. The manual for making the 
 # Schematics
 
 ### Main Robot Schematic
-<img src="Robot Schematics.png" width="500" height="500">
+<img src="Robot Schematics.png" width="500" height="465">
 - Via Cirkit Designer
 
 ## Robot Controller Schematic
